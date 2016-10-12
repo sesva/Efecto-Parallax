@@ -1,0 +1,48 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../img/presence.png);
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background-position: 0;
+
+	background-attachment: fixed;
+
+	font-family: helvetica, arial, sans-serif;
+	line-height: 20px;
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+}
+
+article{
+	background: rgba(24,8,33,.9);
+	padding: 20px;
+	margin: 20px 0;
+	color: #fff;
+	box-shadow: 0 5px 5px 3px rgb(0,0,0,0.25);
+}
+
+article h2{
+	color: #fff;
+}
+
+article hr{
+	background: #F64740;
+	height: 5px;
+	border: none
+}
+
+article p{
+	line-height: 25px;
+}
+
+article h2, article p, article hr{
+	margin-bottom: 20px;
+}
